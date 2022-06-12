@@ -1,0 +1,68 @@
+img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: 100%, 100%;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+  gap: 3rem;
+}
+
+/* ---------------------------------BURGERMENU---------------------------------- */
+.mobile-nav {
+  display: block;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 475px) {
+  .desktop-nav {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* -------------------HEADER ---------------------*/
+.links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  list-style: none;
+}
+.home {
+  width: 110px;
+}
+header {
+  text-align: left;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Press Start 2P", "Bebas Neue";
+  font-size: 150%;
+  background-color: #dbd7c9;
+}
+body {
+  background-color: #ebe8e1;
+}
+
+/* -------------------FOOTER ---------------------*/
+
+footer {
+  text-align: center;
+  background-color: #dbd7c9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+/*------------------- GENERALT ---------------------*/

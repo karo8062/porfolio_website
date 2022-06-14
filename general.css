@@ -13,10 +13,16 @@ img {
   background-position: 100%, 100%;
 }
 main {
-  margin: 5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/*------------------- SKRIFTTYPER ---------------------*/
+
 /* ---------------------------------BURGERMENU---------------------------------- */
+#navbar {
+  display: none;
+}
 .mobile-nav {
   display: block;
 }
@@ -34,6 +40,10 @@ main {
   }
 }
 
+.burgermenu {
+  margin-left: auto;
+}
+
 /* -------------------HEADER ---------------------*/
 .links {
   display: flex;
@@ -46,10 +56,10 @@ main {
 }
 header {
   text-align: left;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;
-  font-family: "Press Start 2P", "Bebas Neue";
-  font-size: 150%;
+  font-family: "Chivo", sans-serif;
+  font-size: 100%;
   background-color: #dbd7c9;
 }
 body {
@@ -61,12 +71,13 @@ body {
 footer {
   text-align: center;
   background-color: #dbd7c9;
-  font-family: "Press Start 2P", "Bebas Neue";
+  font-family: "Chivo", sans-serif;
   font-size: 80%;
   padding-block: 2rem;
 }
 .tekst_footer {
-  font-family: "Press Start 2P", "Bebas Neue";
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
   font-size: 100%;
   margin: 0;
 }
@@ -74,10 +85,12 @@ footer {
 /*-------------- Links på siderne - til de forskellige opgaver -------------*/
 
 .link_opgaver {
-  font-family: "Press Start 2P", "Bebas Neue";
+  font-family: "Chivo", sans-serif;
+  font-weight: bold;
   font-size: 120%;
   text-align: center;
   display: grid;
   margin-top: 2rem;
   text-decoration: underline;
+  margin: 2rem;
 }

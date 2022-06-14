@@ -13,7 +13,8 @@
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 1rem;
+    margin: 2rem;
   }
 }
 .col2 {
@@ -29,6 +30,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     padding: 1rem;
+    margin-bottom: 2rem;
   }
 }
 .col {
@@ -43,6 +45,7 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 2rem;
   }
 }
 .blomsterbillede_tekst {
@@ -52,20 +55,20 @@
 
 /*---------------------OVERSKRIFTER - til de forskellige sider------------------------*/
 h2 {
-  font-family: "Press Start 2P", "Bebas Neue";
+  font-family: "Chivo", sans-serif;
   font-size: 2rem;
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 h1 {
-  font-family: "Press Start 2P", "Bebas Neue";
+  font-family: "Chivo", sans-serif;
   font-size: 120%;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Chivo", sans-serif;
   font-size: 100%;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }

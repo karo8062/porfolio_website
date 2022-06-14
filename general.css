@@ -1,3 +1,11 @@
+/*------------------- GENERALT ---------------------*/
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+  gap: 3rem;
+}
 img {
   height: auto;
   width: 100%;
@@ -5,15 +13,7 @@ img {
   background-position: 100%, 100%;
 }
 main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-* {
-  all: unset;
-  display: revert;
-  cursor: revert;
-  box-sizing: border-box;
-  gap: 3rem;
+  margin: 5rem;
 }
 
 /* ---------------------------------BURGERMENU---------------------------------- */
@@ -25,7 +25,7 @@ main {
   display: none;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 600px) {
   .desktop-nav {
     display: block;
   }
@@ -41,7 +41,7 @@ main {
   justify-content: right;
   list-style: none;
 }
-.home {
+#home {
   width: 110px;
 }
 header {
@@ -61,8 +61,23 @@ body {
 footer {
   text-align: center;
   background-color: #dbd7c9;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Press Start 2P", "Bebas Neue";
   font-size: 80%;
+  padding-block: 2rem;
+}
+.tekst_footer {
+  font-family: "Press Start 2P", "Bebas Neue";
+  font-size: 100%;
+  margin: 0;
 }
 
-/*------------------- GENERALT ---------------------*/
+/*-------------- Links på siderne - til de forskellige opgaver -------------*/
+
+.link_opgaver {
+  font-family: "Press Start 2P", "Bebas Neue";
+  font-size: 120%;
+  text-align: center;
+  display: grid;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
